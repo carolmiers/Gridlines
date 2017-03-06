@@ -4,6 +4,7 @@
     <dimen name="activity_vertical_margin">16dp</dimen>
     <dimen name="font_size_heading">56sp</dimen>
     <dimen name="font_size_logoinfo">24sp</dimen>
-    <dimen name="font_size_contact">12sp</dimen>
+    <dimen name="font_size_contact">20sp</dimen>
 <dimen name="font_size_detail">8sp</dimen>
+    <dimen name="paddingLeft">32dp</dimen>
 </resources>

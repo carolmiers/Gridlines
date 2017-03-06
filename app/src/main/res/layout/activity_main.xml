@@ -50,6 +50,7 @@
             android:scaleType="centerCrop"
             android:layout_gravity="center"
             android:paddingTop="20dp"
+
             />
 
         <LinearLayout
@@ -73,10 +74,9 @@
         android:id="@+id/business"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:text="@string/Business_name"
-            android:textSize="@dimen/font_size_logoinfo"
+        android:text="@string/Business_type"
+            android:textSize="@dimen/font_size_contact"
         android:layout_weight="4"
-            android:fontFamily=""
         android:background="@color/Forest_green"
 
             />
@@ -103,20 +103,13 @@
             android:layout_width="match_parent"
             android:background="@color/PaleSpring_green"/>
 
-<LinearLayout
-    android:layout_width="wrap_content"
-    android:layout_height="wrap_content">
-
-
-</LinearLayout>
-
         <TextView
 
             android:id="@+id/details"
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:drawableLeft="@drawable/ic_launcher_co"
-            android:paddingLeft="32dp"
+            android:paddingLeft="@dimen/paddingLeft"
             android:gravity="center_vertical"
             android:text="@string/Business_name"
             android:textSize="@dimen/font_size_logoinfo"
@@ -130,14 +123,14 @@
         android:text="@string/ContactTel"
         android:gravity="center_vertical"
         android:textSize="@dimen/font_size_logoinfo"
-android:layout_weight="2"
-        android:paddingLeft="32dp"/>
+        android:layout_weight="2"
+        android:paddingLeft="@dimen/paddingLeft"/>
     <TextView
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:drawableLeft="@drawable/email"
         android:layout_weight="2"
-        android:paddingLeft="32dp"
+        android:paddingLeft="@dimen/paddingLeft"
         android:text="@string/email"
         android:textSize="@dimen/font_size_logoinfo"
         android:gravity="center_vertical"/>
