@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Gridlines</string>
+    <string name="Business_name"><b>Kundalini gym</b></string>
+    <string name="Motivator"><i>Keep up!</i></string>
+    <string name="Motivatorcont"><b>Keep up to be kept up</b></string>
+    <string name="ContactTel"><b>0645768543</b></string>
+    <string name="Key_words">Breathe</string>
+    <string name="key_words">Stretch</string>
+    <string name="email"><b>yoga@gmail.com</b></string>
+    <string name="font_family_regular">sans-serif</string>
+</resources>
